@@ -93,6 +93,8 @@ function modificarAlumno(alumno) {
             alumno.clase = nuevaClase;
             alert("Alumno modificado correctamente\n"+verDetalleAlumno(alumno))
             break;
+        case 0:
+            break;
         default:
             alert("Porfavor elija una opción mencionada");
     }
